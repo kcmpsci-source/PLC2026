@@ -1,0 +1,124 @@
+V "GNAT Lib v13"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U playlist%b		playlist.adb		283eba69 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20240521074738 bf4f806b ada.finalization%s
+D a-flteio.ads		20240521074738 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20240521074738 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-strmap.ads		20240521074738 ed8acfdb ada.strings.maps%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-strunb.ads		20240521074738 7bfb7010 ada.strings.unbounded%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-tiflio.ads		20240521074738 9fe024a2 ada.text_io.float_io%s
+D a-tiinio.ads		20240521074738 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D playlist.adb		20260421122353 1828652e playlist%b
+D system.ads		20240521074738 426dafb8 system%s
+D s-atocou.ads		20240521074738 dc18efc3 system.atomic_counters%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20240521074738 4ff27390 system.finalization_root%s
+D s-memory.ads		20240521074738 5b8432d0 system.memory%s
+D s-parame.ads		20251218205951 1f39ba92 system.parameters%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-retsta.ads		20240521074738 0f6b06cb system.return_stack%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stalib.adb		20240521074738 eb464a47 system.standard_library%b
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-stratt.ads		20240521074738 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+G a e
+G c Z b b [playlist standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 22|1r6 1r33 2r6 2r33 3r6 3r33 4r6 4r33
+X 6 a-flteio.ads
+20K13*Float_Text_IO[17|46] 22|2w10 2r37
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[18|46] 22|1w10 1r37
+X 10 a-string.ads
+16K13*Strings 35e16 22|4r10 4r37
+X 13 a-strunb.ads
+85K21*Unbounded 766e26 22|4w18 4r45
+91R9*Unbounded_String<5|43R9> 745e15 22|9r16 23r29
+108V13*To_Unbounded_String{91R9} 22|49s17 50s31
+121V13*To_String{string} 22|14s14 34s22
+X 16 a-textio.ads
+58K13*Text_IO 787e16 22|3w10 3r37
+88I12*Field{integer}
+519U14*Put 22|14s9 34s17 35s17 37s17 39s17 41s17 43s17
+566U14*Put_Line 22|61s5 63s5
+X 17 a-tiflio.ads
+85U14*Put 22|38s17[6|20] 42s17[6|20]
+88i7 Aft{16|88I12} 22|38r37[6|20] 42r37[6|20]
+89i7 Exp{16|88I12} 22|38r47[6|20] 42r47[6|20]
+X 22 playlist.adb
+6U11*PlayList 6b11 64l5 64t13
+8R10 Person 10e15 12r31 24r29
+9r9 name{13|91R9} 14r27 50m23
+12U15 Put_Person 12b15 12>27 15l9 15t19 36s17
+12r27 p{8R10} 14r25
+17E10 Item_Variant 17e40 19r23
+17n27 PIECE{17E10} 19r39 22r18 33r18 48r17
+17n34 PAUSE{17E10} 25r18 40r18 55r17
+19R10 Item 19d16 28e15 30r29 47r14 54r14
+19e16 kind{17E10} 21r14 32r16 48m9 55m9
+20f9 length_secs{float} 38r24 42r24 51m9 56m9
+23r17 name{13|91R9} 34r35 49m9
+24r17 performer{8R10} 36r31 50m9
+30U15 Put_Item 30b15 30>25 45l9 45t17 60s5 62s5
+30r25 i{19R10} 32r14 34r33 36r29 38r22 42r22
+47r5 piece1{19R10} 60r15
+54r5 pause1{19R10} 62r15
+X 23 system.ads
+67M9*Address
+X 29 s-memory.ads
+51V13*Alloc{23|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{23|67M9} 103i<c,__gnat_realloc>22
+X 37 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+
